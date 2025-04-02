@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("https://fastly.picsum.photos/id/976/1920/1089.jpg?hmac=Cu83yQvtmRlnXFnO83hWzqoJC6NyesRyX29N63XprWM");
+}
+.caixa-maior{
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+	width: 95%;
+	max-width: 450px;
+
+}
+.input-cidade{
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 20px;
+	background-color: #7c7c7c2b;
+	color: white;
+	width: calc(100% - 70px);
+}
+.botao-busca{
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 50px;
+	background-color:#7c7c7c2b;
+	cursor: pointer;
+	float: right;
+}
+.img-busca{
+	width: 20px;
+}
+.cidade{
+	color: white;
+	font-size: 28px;
+	font-weight: 300;
+}
+.caixa-media{
+	margin-top: 30px;
+}
+.temp{
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.caixa-menor{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.texto-previsao{
+	color: white;
+	margin-left: 20px;
+	text-transform: capitalize;
+}
+.umidade{
+	color: white;
+	margin-top: 20px;
+}
