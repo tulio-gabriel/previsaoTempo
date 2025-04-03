@@ -1,5 +1,4 @@
-const key = "api_key_here"
-
+const key = "cb81e2019934cecfe3ba0cde5e0c06dd"
 
 function popularDados(dados){
 	document.querySelector(".cidade").innerHTML="Tempo em " + dados.name
